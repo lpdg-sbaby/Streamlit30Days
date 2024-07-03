@@ -1,16 +1,19 @@
 import streamlit as st
 
-st.header('st.selectbox')
+st.header('st.checkbox')
 
-option = st.selectbox(
-     'What is your favorite color?',
-     ('Blue', 'Red', 'Green'))
+st.write ('What would you like to order?')
 
-st.write('Your favorite color is ', option)
+icecream = st.checkbox('Ice cream')
+coffee = st.checkbox('Coffee')
+cola = st.checkbox('Cola')
 
-option2=st.multiselect(
-     'What is your favorite colors?',
-     options=('Blue','Yellow','Green')
-)
-st.write('Your favorite colors are ', option2)
+if icecream:
+     st.write("Great! Here's some more 🍦")
+
+if coffee: 
+     st.write("Okay, here's some coffee ☕")
+
+if cola:
+     st.write("Here you go 🥤")
 
