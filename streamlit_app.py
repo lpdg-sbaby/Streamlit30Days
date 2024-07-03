@@ -33,3 +33,6 @@ df2 = pd.DataFrame(
 c = alt.Chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 st.write(c)
+
+
+
