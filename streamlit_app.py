@@ -8,4 +8,9 @@ option = st.selectbox(
 
 st.write('Your favorite color is ', option)
 
+option2=st.multiselect(
+     'What is your favorite colors?',
+     options=('Blue','Yellow','Green')
+)
+st.write('Your favorite colors are ', option2)
 
