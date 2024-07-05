@@ -7,7 +7,7 @@ st.write('Contents of the `.streamlit/config.toml` file of this app')
 st.code("""
 [theme]
 primaryColor="#F39C12"
-backgroundColor="#2E86C1"
+backgroundColor="#D4FF33"
 secondaryBackgroundColor="#AED6F1"
 textColor="#FFFFFF"
 font="monospace"
